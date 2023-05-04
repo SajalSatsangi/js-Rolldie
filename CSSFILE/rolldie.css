@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#roll-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgb(120, 188, 17);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result-container {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(120, 188, 17);
+}
+
+#roll-button:hover {
+    opacity: 0.8;
+}
+
+#roll-button:active {
+    opacity: 0.5;
+}
